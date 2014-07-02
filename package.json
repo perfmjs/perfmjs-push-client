@@ -1,0 +1,26 @@
+{
+  "name": "perfmjs-push-client",
+   "description":"The Realtime Framework Push Client for Node.js",
+  "author": "tony",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node lib/push-client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perfmjs/perfmjs-push-client.git"
+  },
+  "keywords": [
+    "the realtime framework",
+    "push client",
+    "perfmjs",
+    "perfmjs-node",
+    "high performance"
+  ],
+  "dependencies": {
+    "perfmjs-node": "1.1.8",
+    "redis": "0.10.3",
+    "shred": "0.8.10"
+  }
+}
