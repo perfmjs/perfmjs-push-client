@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "start": "node lib/push-client.js"
+    "start": "node lib/push-client-ssq.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,6 @@
     "perfmjs-node": "1.1.8",
     "redis": "0.10.3",
     "shred": "0.8.10"
-  }
+  },
+  "licenses": [ "MIT" ]
 }
