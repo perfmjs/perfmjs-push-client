@@ -19,9 +19,10 @@
     "high performance"
   ],
   "dependencies": {
-    "perfmjs-node": "1.1.8",
+    "perfmjs-node": "1.2.0",
     "redis": "0.10.3",
-    "shred": "0.8.10"
+    "shred": "0.8.10",
+    "later": "1.1.6"
   },
   "licenses": [ "MIT" ]
 }
