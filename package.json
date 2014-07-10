@@ -2,10 +2,10 @@
   "name": "perfmjs-push-client",
    "description":"The Realtime Framework Push Client for Node.js",
   "author": "tony",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "private": false,
   "scripts": {
-    "start": "node lib/push-client-ssq.js"
+    "start": "node lib/push-client-kc.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,7 @@
   "dependencies": {
     "perfmjs-node": "1.2.0",
     "redis": "0.10.3",
-    "shred": "0.8.10",
-    "later": "1.1.6"
+    "shred": "0.8.10"
   },
   "licenses": [ "MIT" ]
 }
