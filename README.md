@@ -1,6 +1,6 @@
 perfmjs-push-client
 =======
-a node.js client for perfmjs-push  V1.0.3
+a node.js client for perfmjs-push  V1.0.4
 
 and you can find perfmjs-push in here: https://github.com/perfmjs/perfmjs-push
 
