@@ -19,7 +19,7 @@
     "high performance"
   ],
   "dependencies": {
-    "perfmjs-node": "1.2.4",
+    "perfmjs-node": "1.2.5",
     "redis": "0.11.0",
     "shred": "0.8.10"
   },
