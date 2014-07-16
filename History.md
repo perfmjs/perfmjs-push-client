@@ -1,3 +1,7 @@
+1.0.5 / 2014-07-16
+==================
+ * Improved: improved perfmjs-node dependency to V1.2.4
+
 1.0.4 / 2014-07-16
 ==================
  * Improved: improved version of dependency: redis, prefmjs-node
