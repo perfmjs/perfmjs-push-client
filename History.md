@@ -1,3 +1,7 @@
+1.0.6 / 2014-07-24
+==================
+ * Improved: improved redis cluster function
+
 1.0.5 / 2014-07-16
 ==================
  * Improved: improved perfmjs-node dependency to V1.2.4
