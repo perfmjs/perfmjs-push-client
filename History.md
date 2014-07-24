@@ -1,4 +1,4 @@
-1.0.6 / 2014-07-24
+1.0.7 / 2014-07-24
 ==================
  * Improved: improved redis cluster function
 
