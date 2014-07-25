@@ -1,3 +1,7 @@
+1.0.8 / 2014-07-25
+==================
+ * Improved: add redis.end() after publish a key
+
 1.0.7 / 2014-07-24
 ==================
  * Improved: improved redis cluster function
