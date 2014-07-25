@@ -1,6 +1,7 @@
 1.0.8 / 2014-07-25
 ==================
  * Improved: add redis.end() after publish a key
+  * Changed: changed redis-cluster version to v1.0.2
 
 1.0.7 / 2014-07-24
 ==================
