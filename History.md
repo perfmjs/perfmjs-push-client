@@ -2,7 +2,7 @@
 ==================
  * Improved: add redis.end() after publish a key
  * Changed: changed redis-cluster version to v1.0.2
- * Imporved: add nextOpenTerm leftTime logic
+ * Imporved: add nextOpenTerm leftTime logic and setTimeout about next day's first term
 
 1.0.7 / 2014-07-24
 ==================
