@@ -5,7 +5,7 @@
   "version": "1.0.8",
   "private": false,
   "scripts": {
-    "start": "node lib/push-client-xysc.js"
+    "start": "node lib/push-client-klpk.js"
   },
   "repository": {
     "type": "git",
