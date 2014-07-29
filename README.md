@@ -1,6 +1,6 @@
 perfmjs-push-client
 =======
-a node.js client for perfmjs-push  V1.0.8
+a node.js client for perfmjs-push  V1.0.9
 
 and you can find perfmjs-push in here: https://github.com/perfmjs/perfmjs-push
 
@@ -8,7 +8,7 @@ How to Use
 -------
     npm install
 
-    node lib/start.js
+    node start.js &
 
 
 License

@@ -2,7 +2,7 @@
   "name": "perfmjs-push-client",
    "description":"The Realtime Framework Push Client for Node.js",
   "author": "tony",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
   "scripts": {
     "start": "node lib/push-client-klpk.js"
@@ -19,8 +19,8 @@
     "high performance"
   ],
   "dependencies": {
-    "perfmjs-node": "1.2.6",
-    "perfmjs-redis-cluster": "1.0.2",
+    "perfmjs-node": "1.2.7",
+    "perfmjs-redis-cluster": "1.0.3",
     "shred": "0.8.10"
   },
   "licenses": [ "MIT" ]

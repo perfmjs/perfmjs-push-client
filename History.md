@@ -1,3 +1,7 @@
+1.0.9 / 2014-07-28
+==================
+ * Fixed: fix some question about nextTime countdown
+
 1.0.8 / 2014-07-25
 ==================
  * Improved: add redis.end() after publish a key
