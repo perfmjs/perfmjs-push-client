@@ -2,7 +2,7 @@
   "name": "perfmjs-push-client",
    "description":"The Realtime Framework Push Client for Node.js",
   "author": "tony",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "private": false,
   "scripts": {
     "start": "node lib/push-client-klpk.js"

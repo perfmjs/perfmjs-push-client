@@ -1,3 +1,7 @@
+1.1.0 / 2014-07-31
+==================
+ * Improved: using redis store last push data
+
 1.0.9 / 2014-07-28
 ==================
  * Fixed: fix some question about nextTime countdown
