@@ -1,6 +1,6 @@
 perfmjs-push-client
 =======
-a node.js client for perfmjs-push  V1.1.2
+a node.js client for perfmjs-push  V1.1.3
 
 and you can find perfmjs-push in here: https://github.com/perfmjs/perfmjs-push
 
@@ -14,7 +14,7 @@ How to Use
 License
 -------
 
-Copyright 2011 Joe Hewitt
+Copyright 2011 Tony
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

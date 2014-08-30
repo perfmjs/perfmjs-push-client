@@ -23,8 +23,8 @@ perfmjs.ready(function($$, app) {
             }
         });
     } else {
-        app.register('redisCluster', require('perfmjs-redis-cluster'));
-        app.register('klpkPushClient', require("./lib/push-client-klpk"));
+        app.register(require('perfmjs-redis-cluster'));
+        app.register(require("./lib/push-client-klpk"));
         app.startAll();
         $$.logger.info("已启动后台数据推送Node.JS客户端!, cluster.worker.id = " + cluster.worker.id);
     }
