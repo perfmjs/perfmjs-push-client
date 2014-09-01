@@ -1,11 +1,8 @@
-1.2.0 / 2014-09-01
-==================
- * improved: 增加path以允许访问带上下文的socket.io路径，如：http://push.no100.com/klpk/socket.io/?EIO=2&transport=polling&t=1409577606338-0
-
-1.1.3 / 2014-08-31
+1.1.3 / 2014-09-01
 ==================
  * improved: 提升perfmjs-node版本到1.3.2
  * improved: 提升perfmjs-redis-cluster版本到1.0.6
+ * improved: 增加path以允许访问带上下文的socket.io路径，如：http://push.no100.com/klpk/socket.io/?EIO=2&transport=polling&t=1409577606338-0
 
 1.1.2 / 2014-08-22
 ==================
