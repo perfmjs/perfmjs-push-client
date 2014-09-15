@@ -18,13 +18,15 @@ perfmjs.ready(function($$, app) {
         });
         cluster.on('exit', function(worker, code, signal) {
             $$.logger.info('工作线程：' + worker.id + ' 挂了，将重启一个新的工作线程…………,signal:' + signal);
-            if (worker.id < 100) {
+            if (worker.id < 1000) {
                 cluster.fork();
             }
         });
     } else {
         app.register(require('perfmjs-redis-cluster'));
-        app.register(require("./lib/push-client-klpk"));
+        app.register(require('./lib/push-client-dj11y'));
+        app.register(require('./lib/push-client-gxk3'));
+        app.register(require('./lib/push-client-klpk'));
         app.startAll();
         $$.logger.info("已启动后台数据推送Node.JS客户端!, cluster.worker.id = " + cluster.worker.id);
     }
