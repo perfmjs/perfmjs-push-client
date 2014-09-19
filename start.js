@@ -1,6 +1,6 @@
 /**
  * ssq push client
- * 后台启动 start -a -l /www/perfmjs-push-client/logs/forever.log -o /www/perfmjs-push-client/logs/out.log -e /www/perfmjs-push-client/logs/err.log /www/perfmjs-push-client/start.js --NODE_ENV=production --NODE_CONFIG_DIR=test/config; tail -f /www/perfmjs-push-client/logs/out.log
+ * 后台启动 start -a -l /www/perfmjs-push-client/logs/forever.log -o /www/perfmjs-push-client/logs/out.log -e /www/perfmjs-push-client/logs/err.log /www/perfmjs-push-client/start.js --NODE_ENV=production --NODE_CONFIG_DIR=/www/perfmjs-push-client/config; tail -f /www/perfmjs-push-client/logs/out.log
  * Created by Administrator on 2014/7/3.
  */
 require("perfmjs-node");
