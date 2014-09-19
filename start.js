@@ -1,6 +1,6 @@
 /**
  * ssq push client
- * 后台启动 /usr/local/node/bin/forever start -a -l /www/perfmjs-push-client-1.1.0/logs/forever.log -o logs/out.log -e logs/err.log start.js; tail -f ./logs/out.log
+ * 后台启动 start -a -l /www/perfmjs-push-client/logs/forever.log -o /www/perfmjs-push-client/logs/out.log -e /www/perfmjs-push-client/logs/err.log /www/perfmjs-push-client/start.js --NODE_ENV=production --NODE_CONFIG_DIR=test/config; tail -f /www/perfmjs-push-client/logs/out.log
  * Created by Administrator on 2014/7/3.
  */
 require("perfmjs-node");
@@ -28,6 +28,7 @@ perfmjs.ready(function($$, app) {
         app.register(require('./lib/push-client-gxk3'));
         app.register(require('./lib/push-client-klpk'));
         app.startAll();
+        $$.dj11yPushClient.instance._handleDataChangeNotify({'303':$$.dj11yPushClient.instance,'316':$$.gxk3PushClient.instance,'314':$$.klpkPushClient.instance});
         $$.logger.info("已启动后台数据推送Node.JS客户端!, cluster.worker.id = " + cluster.worker.id);
     }
 });
