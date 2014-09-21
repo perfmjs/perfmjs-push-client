@@ -17,7 +17,7 @@ perfmjs.ready(function($$, app) {
             $$.logger.info('工作线程:' + worker.id + ' is online.');
         });
         cluster.on('exit', function(worker, code, signal) {
-            $$.logger.info('工作线程：' + worker.id + ' 挂了，将重启一个新的工作线程…………,signal:' + signal);
+            $$.logger.info('工作线程：' + worker.id + ' 挂了，将重启一个新的工作线程…………,signal||code:' + signal||code);
             if (worker.id < 1000) {
                 cluster.fork();
             }
