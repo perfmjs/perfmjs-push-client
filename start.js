@@ -24,11 +24,12 @@ perfmjs.ready(function($$, app) {
         });
     } else {
         app.register(require('perfmjs-redis-cluster'));
+        app.register(require('./lib/push-client-gd11x5'));
         app.register(require('./lib/push-client-dj11y'));
         app.register(require('./lib/push-client-gxk3'));
         app.register(require('./lib/push-client-klpk'));
         app.startAll();
-        $$.dj11yPushClient.instance._handleDataChangeNotify({'303':$$.dj11yPushClient.instance,'316':$$.gxk3PushClient.instance,'314':$$.klpkPushClient.instance});
+        $$.dj11yPushClient.instance._handleDataChangeNotify({'303':$$.dj11yPushClient.instance,'305':$$.gd11x5PushClient.instance,'316':$$.gxk3PushClient.instance,'314':$$.klpkPushClient.instance});
         $$.logger.info("已启动后台数据推送Node.JS客户端!, cluster.worker.id = " + cluster.worker.id);
     }
 });
