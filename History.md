@@ -1,6 +1,7 @@
 1.1.8 / 2015-01-6
  * improved: 提升perfmjs-node版本到1.4.1
  * improved: 提升perfmjs-redis-cluster版本到1.1.1
+ * improved: 提升request版本到2.25.0
 
 1.1.7 / 2014-09-25
  * add: 增加gd11x5
